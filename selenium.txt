@@ -1,0 +1,357 @@
+Basics of web scrapping in python:
+https://www.zenrows.com/blog/web-scraping-python#single-element
+
+dynamic data scrapping- https://www.zenrows.com/blog/
+
+Web Scraping with Selenium and Python in 2024:
+https://www.zenrows.com/blog/selenium-python-web-scraping#getting-started
+
+10 Ways for Web Scraping without Getting Blocked:
+https://www.zenrows.com/blog/web-scraping-without-getting-blocked#automate-captcha-solving
+
+How to Scrape a Website that Requires a Login with Python:
+https://www.zenrows.com/blog/web-scraping-login-python#how
+
+Bot Detection Solutions and How To Bypass Them:
+https://www.zenrows.com/blog/bypass-bot-detection#top-five
+
+Headless Browser in Python and Selenium:
+https://www.zenrows.com/blog/headless-browser-python#what-is-a-headless-browser
+
+
+
+______________________________________________________________________________________
+Traditional scraping tools struggle to collect data from websites that 
+rely on JavaScript. That's because you need to run JS, and Selenium enables that.
+
+The library also provides several methods to interact with a page like a human user would, meaning you gain extra functionality and are more prepared to avoid being blocked. Some examples of actions are:
+
+Scrolling down.
+Clicking buttons.
+Filling out forms.
+Taking screenshots.
+
+Basic Code:
+------------
+
+from selenium import webdriver 
+
+# initialize an instance of the chrome web-driver (browser)
+driver = webdriver.Chrome()
+
+# visit your target site
+driver.get('https://scrapingclub.com/')
+
+# scraping logic...
+
+# release the resources allocated by Selenium and shut down the browser
+driver.quit()
+--------------------------------------------------
+it's normal for the Chrome WebDriver to open briefly and then close after executing your script.This behavior occurs because your script instructs the WebDriver to open a Chrome browser window, navigate to the specified URL (https://scrapingclub.com/), and then execute any scraping logic you have. Once the script has finished executing, it releases the resources allocated by Selenium and shuts down the browser, which includes closing the browser window.
+ ---------------------------------
+
+*Selenium WebDriver is a web automation tool enabling control over web browsers. Although it supports various browsers, we'll use Chrome.
+
+Chrome Headless Mode:
+----------------------
+Selenium is well known for its headless browser capabilities. A headless browser is one without a graphical user interface (GUI) but with all the functionality of a real one.
+
+---------------------------------------
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+# enable headless mode in Selenium
+
+options = Options()
+options.add_argument('--headless=new')
+
+driver = webdriver.Chrome(
+    options=options, 
+    # other properties...
+)
+-------------------------------------------
+
+In this script, you are configuring Selenium to run the Chrome browser in headless mode. Headless mode allows the browser to operate without a graphical user interface (GUI), meaning that it runs in the background without opening a visible browser window. This can be useful for various purposes such as automated testing, web scraping, or running browser-based tasks in server environments where a GUI is not available.
+-----------------------------------------------
+
+Importing Libraries:
+---------------------
+from selenium import webdriver: Imports the webdriver module from the Selenium package, which allows you to control web browsers programmatically.
+from selenium.webdriver.chrome.options import Options: Imports the Options class from the chrome.options module, which allows you to configure various options for the Chrome browser.
+
+Setting Headless Mode:
+------------------------
+options = Options(): Creates an instance of the Options class.
+options.add_argument('--headless=new'): Adds the argument --headless=new to the options. 
+
+Creating WebDriver Instance:
+------------------------------
+driver = webdriver.Chrome(options=options): Initializes a new instance of the Chrome WebDriver, passing the options object configured with headless mode.
+Optionally, you can pass other properties to the webdriver.Chrome() constructor, such as the path to the Chrome WebDriver executable or additional browser capabilities.
+----------------------------------------
+
+How to Find Web Page Elements:
+------------------------------
+Web scraping requires selecting HTML elements from the DOM (Document Object Model) to extract their data. For that, Selenium offers two main methods to locate the elements on a page:
+
+*find_element: To find a specific, single element.
+*find_elements: To find all the elements that match the selection strategy.
+
+**different 7 approaches for finding elements:
+https://www.zenrows.com/blog/selenium-python-web-scraping#find-page-elements
+
+---------------------------------------
+
+How to Interact with a Web Page as in a Browser
+---------------------------------------------------
+When users visit a web page in a browser, they interact with it through its HTML elements: they click on them, read their data, use them to enter information, etc. These are just a few actions you can take on a page through its elements.
+
+A Selenium WebElement object represents an HTML node in the DOM, while WebElement exposes several methods for interacting with the underlying element. This allows you to play with the DOM nodes as a human user would.
+
+Some of the most common actions you can perform on WebElement objects are:
+
+Clicking on an HTML element:
+------------------------------
+
+submit_button = driver.find_element(By.CSS_SELECTOR, 'form button')
+submit_button.click()
+
+*This snippet clicks the ''Log In'' button and submits the form. The click() method allows you to click on the selected element.
+
+Typing data in an HTML text element:
+---------------------------------------
+
+name_input = driver.find_element(By.ID, 'id_name')
+name_input.send_keys('Serena')
+
+*This code fills out the ''Name'' input element with ''Serena.'' 
+The WebElement's send_keys() method simulates the typing.
+
+-----------------------------------------------------------------------------
+
+Getting the text contained in an HTML element:
+---------------------------------------------
+
+name_label = driver.find_element(By.CSS_SELECTOR, 'label[for=id_name]')
+print(name_label.text)
+
+------------------------------------------------------------------------------
+
+Getting the data contained in the attributes of the HTML element:
+-----------------------------------------------------------------
+
+hidden_input = driver.find_element(By.CSS_SELECTOR, 'input[type=hidden]')
+hidden_input_value = hidden_input.get_attribute('value')
+print(hidden_input_value)
+
+
+**The last two examples are especially useful when it comes to Python Selenium web scraping. Keep in mind that you can also call find_element() and find_elements() on a WebElement. This will restrict the search to the children of the selected HTML element.
+
+----------------------------------------------------------
+
+Wait for an Element to Appear
+------------------------------
+Most sites rely on API calls to get the data they need. After the first load, they perform many async XHR requests via AJAX in JavaScript. Thus, they retrieve some content and then use it to populate the DOM on-the-fly with new HTML elements. That's how popular client-side rendering technologies like React, Vue, and Angular work.
+
+When you inspect a web page, chances are that some time has passed since the first load, so it should've already performed the most important API requests, and the page's DOM is most likely definitive.
+
+Take a look at the ''Network'' tab of the DevTools window. In the ''Fetch/XHR'' section, you can see the AJAX requests performed by the page:
+
+compare the HTML source code with the current DOM to study the differences. Use the developer tools to understand what a target page does and how it uses JavaScript to manipulate the DOM. Keep in mind that a website can rely on JavaScript to completely render its pages or only parts of them.
+
+With JS-rendered pages, you can't immediately start scraping data. That's because the DOM will only be complete after some time. In other words, you have to wait until JavaScript does its work.
+
+You have two ways to scrape data from such pages using Selenium:
+----------------------------------------------------------------
+time.sleep() stops the Python Selenium web scraping script for a few seconds before selecting elements from the DOM.
+
+WebDriverWait waits for specific conditions before proceeding further in the code.
+
+
+**Using the time.sleep() Python function works most of the time. But how long should you wait? There's no absolute answer, as it all depends on the specific case and network conditions. What's for sure is that waiting too long or too little isn't ideal in either case.
+
+That's why you should prefer the second approach based on the Selenium WebDriverWait class. This allows you to wait only as long as required. See it in action below:
+
+-------------------------------
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+# ...
+
+# wait up to 3 seconds until there is the 'Jersey Dress' string
+# in the '.card-title' element
+
+element = WebDriverWait(driver, 3).until(
+    EC.text_to_be_present_in_element((By.CSS_SELECTOR, '.card-title'), 'Jersey Dress')
+)
+
+# you are now sure that the card has been loaded
+# and can scrape data from it
+product_name = driver.find_element(By.CSS_SELECTOR, '.card-title').text
+product_image = driver.find_element(By.CSS_SELECTOR, '.card-img-top').get_attribute('src')
+product_price = driver.find_element(By.CSS_SELECTOR, '.card-price').text
+product_description = driver.find_element(By.CSS_SELECTOR, '.card-description').text
+
+print(f'Product title: {product_name}')
+print(f'Product image: {product_image}')
+print(f'Product price: {product_price}')
+print(f'Product description: {product_description}')
+-----------------------------------
+*This code waits up to three seconds until the card title HTML element contains the expected text. As soon as the condition is met, it scrapes data from the card. However, if the expected condition doesn't occur in the specified timeout, a TimeoutException is raised.
+
+BoldYou can wait for several ExpectedConditions. The most popular ones are:
+---------------------------------------------------------------------------
+title_contains: Until the page title contains a specific string.
+
+presence_of_element_located: Until an HTML element is present in the DOM.
+
+visibility_of: Until an element that's already in the DOM becomes visible.
+
+text_to_be_present_in_element: Until the element contains a particular text.
+
+element_to_be_clickable: Until an HTML element is clickable.
+
+alert_is_present: Until a JavaScript native alert shows up.
+
+-----------------------------------------------------------------------------
+
+Infinite Scroll
+With infinite scroll, an effective approach used by websites to avoid pagination and therefore dropping the need for users to click to load next pages, new content gets loaded dynamically via AJAX as the user scrolls down. Visit Scraping Infinite Scrolling Pages (Ajax) for an example.
+
+
+To scrape a page that uses an infinite scroll to load data, you need to instruct a browser to scroll down. How? With the space bar, ''Page Down'', or ''End'' keys.
+
+To simulate pressing the “End” key on the web page, you first have to select an element (e.g., the <body>) and send the key there:
+---------------------
+from selenium.webdriver import Keys
+# ...
+
+driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.END)
+------------------------
+
+When it comes to infinite scroll, you have to apply this logic several times as all elements load. Also, you have to wait for the new one to appear, as explained earlier. You can achieve that in Selenium with Python as below:
+
+--------------------
+cards = []
+old_card_size = len(cards)
+while True:
+    # reach the end of the scroll bar
+    driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.END)
+
+    # wait 3 seconds for new elements to load
+    time.sleep(3)
+
+    # retrieve all cards
+    cards = driver.find_elements(By.CSS_SELECTOR, '.w-full.rounded.border')
+
+    # if no new cards were found
+    if (old_card_size == len(cards)):
+        # break the cycle since the scroll
+        # is over
+        break
+
+    # keep track of the number of cards
+    # currently discovered
+    old_card_size = len(cards)
+
+# scrape data from cards...
+-----------------------------------
+**This while loop allows you to scrape all the information from the appearing content. However, keep in mind that you can't know in advance what elements will load, which results in not knowing what condition to expect in WebDriverWait. Thus, it's best to choose time.sleep() in this case.
+-------------------------------------------
+
+Fill Out a Form:
+----------------
+This is how you can use Selenium to fill out the form on ScrapingClub's login form page:
+
+# retrieve the form elements
+
+name_input = driver.find_element(By.ID, 'id_name')
+password_input = driver.find_element(By.ID, 'id_password')
+submit_button = driver.find_element(By.CSS_SELECTOR, 'form button[type=submit]')
+
+# filling out the form elements
+
+name_input.send_keys('scrapingclub')
+password_input.send_keys('scrapingclub')
+
+# submit the form and log in
+
+submit_button.click()
+-------------------------------------------------
+In HTML, the for attribute is used in conjunction with the <label> element to associate the label with a form control, such as an input field. This association allows users to click on the label to focus or select the associated form control. Here's how the for attribute works:
+
+Label Element (<label>):
+
+The <label> element is used to define a label for an HTML form control.
+It can be associated with various form elements like <input>, <textarea>, <select>, etc.
+For Attribute:
+
+The for attribute specifies which form element the label is associated with.
+It takes the value of the id attribute of the form element it is intended to label.
+When a user clicks on the label, the associated form control receives focus or becomes selected.
+The for attribute is particularly useful for improving accessibility and usability on web 
+
+The <label> element is used to label an input field for entering a username.
+The for attribute of the <label> element has the value "username", which matches the id attribute of the associated input field.
+When a user clicks on the "Username:" label, the input field with the ID "username" receives focus, allowing the user to start typing their username without having to click directly on the input field.
+Using the for attribute with labels helps improve accessibility for users, especially those who rely on assistive technologies such as screen readers, by making it easier to understand the purpose of form controls and interact with them more efficiently.
+
+-----------------------------------------------------------
+*****difference between :
+
+submit_button = driver.find_element(By.CSS_SELECTOR, 'form button[type=submit]')
+
+This line of code specifically targets a button element within a form that has a type attribute set to "submit". It's a more specific selector that ensures the located button is explicitly designated as a submit button within a form.
+
+submit_button = driver.find_element(By.CSS_SELECTOR, 'form button')
+
+This line of code simply targets any button element within a form. It doesn't specify the type attribute, so it will locate any button element within a form regardless of its type.
+
+______________________________________________________________________________________
+
+Add Real Headers
+One of the essential headers anti-bot technologies typically examine is the User-Agent. Selenium provides one by default, but you can customize it to add a real one and increase your chances of not getting blocked:
+
+------------------------------------
+options = Options()
+# Chrome 104 Android User Agent
+
+custom_user_agent = "Mozilla/5.0 (Linux; Android 11; 100011886A Build/RP1A.200720.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Safari/537.36"
+
+options.add_argument(f'user-agent={custom_user_agent}')
+driver = webdriver.Chrome(
+    options=options,
+    # ...
+)
+
+# visit a page
+driver.get("https://scrapingclub.com/")
+
+# print the user agent used to perform the request
+print(driver.execute_script("return navigator.userAgent")) # "Mozilla/5.0 (Linux; Android 11; 100011886A Build/RP1A.200720.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.69 Safari/537.36"
+-------------------------------------------------------------------------------------
+
+Headless Browser in Python:
+---------------------------
+A headless browser is a web browser without a graphical user interface (GUI) but the capabilities of a real browser.
+
+It carries all standard functionalities like dealing with JavaScript, clicking links, etc. Python is a programming language that lets you enjoy its full capabilities.
+
+You can automate the browser and learn the language using a Python headless browser. It can also save you time in the development and scraping phase, as it uses less memory.
+
+
+Benefits of a Python Headless Browser:
+---------------------------------------
+Any headless browser process uses less memory than a real browser. That's because it doesn't need to draw graphical elements for the browser and the website.
+
+Furthermore, Python headless browsers are fast and can notably speed up scraping processes. For example, if you want to extract data from a website, you can program your scraper to grab the data from the headless browser and avoid waiting for the page to load fully.
+
+It also allows multitasking since you can use the computer while the headless browser runs in the background.
+
+Disadvantages of a Python Headless Browser:
+--------------------------------------------
+The main downsides of Python headless browsers are the inability to perform actions that need visual interaction and that it's hard to debug.
+
+Therefore, you won’t be able to inspect elements or watch your tests running.
+
+Moreover, you’ll get a very limited idea on how a user would normally interact with the website.

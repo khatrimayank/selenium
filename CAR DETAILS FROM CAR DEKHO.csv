@@ -1,0 +1,25 @@
+,MAKE_MODEL,ENGINE_TYPE,ENGINE_DISPLACEMENT,TRANSMISSION_TYPE,FUEL_TYPE,MILEAGE,TANK_CAPACITY,FRONT_SUSPENSION,REAR_SUSPENSION
+0,Maruti Suzuki Swift,Advanced K Series,1197 cc,Automatic,Petrol,22.56 kmpl,37 Litres,Mac Pherson Strut,Torsion Beam
+1,Maruti Suzuki Brezza,K15C,1462 cc,Automatic,Petrol,19.8 kmpl,48 Litres,Mac Pherson Strut & Coil,Torsion Beam & Coil Spring
+2,Maruti Suzuki FRONX,1.0L Turbo Boosterjet,998 cc,Automatic,Petrol,20.01 kmpl,37 Litres,MacPherson Strut,Torsion Beam
+3,Maruti Suzuki Ertiga,K15C Smart Hybrid,1462 cc,Automatic,Petrol,20.3 kmpl,45 Litres,Mac Pherson Strut & Coil Spring,Torsion Beam & Coil Spring
+4,Maruti Suzuki Baleno,1.2 L K Series Engine,1197 cc,Automatic,Petrol,22.94 kmpl,37 Litres,MacPherson Strut,Torsion Beam
+5,Maruti Suzuki Dzire,K12M VVT I4,1197 cc,Automatic,Petrol,22.61 kmpl,37 Litres,Mac Pherson Strut,Torsion Beam
+6,Maruti Suzuki Wagon R,K12N,1197 cc,Automatic,Petrol,24.43 kmpl,32 Litres,MacPherson Strut With Coil Spring,Torsion Beam With Coil Spring
+7,Maruti Suzuki Alto K10,K10C,998 cc,Manual,CNG,33.85 km/kg,55 Litres,Mac Pherson Strut with Coil Spring,Torsion Beam with Coil Spring
+8,Maruti Suzuki Alto,F8D,796 cc,Manual,CNG,31.59 km/kg,60 Litres,Mac Pherson Strut,3-Link Rigid Axle Suspension
+9,Maruti Suzuki Celerio,K10C,998 cc,Automatic,Petrol,26 kmpl,32 Litres,Mac Pherson Strut with Coil Spring,Torsion Beam with Coil Spring
+10,Maruti Suzuki Jimny,K15B,1462 cc,Automatic,Petrol,16.39 kmpl,40 Litres,3-link Rigid Axle Type with Coil Spring,3-link Rigid Axle Type with Coil Spring
+11,Maruti Suzuki Eeco,K12N,1197 cc,Manual,CNG,26.78 km/kg,65 Litres,Macpherson Strut,N/A
+12,Maruti Suzuki XL6,K15C Smart Hybrid,1462 cc,Automatic,Petrol,20.27 kmpl,45 Litres,Mac Pherson Strut & Coil Spring,Torsion Beam & Coil Spring
+13,Maruti Suzuki Ignis,VVT,1197 cc,Automatic,Petrol,20.89 kmpl,32 Litres,McPherson Strut,Torsion Beam
+14,Maruti Suzuki Ciaz,K15 Smart Hybrid Petrol Engine,1462 cc,Automatic,Petrol,20.04 kmpl,43 Litres,McPherson,Torsion Beam
+15,Maruti Suzuki Invicto,N/A,1987 cc,Automatic,Petrol,23.24 kmpl,52 Litres,MacPherson Strut,Torsion Beam
+16,Maruti Suzuki S-Presso,K1OC CNG,998 cc,Manual,CNG,32.73 km/kg,55 Litres,MacPherson Strut with Coil Spring and Stabilizer Bar,Torsion Beam with Coil Spring
+17,Maruti Suzuki Ertiga Tour,K15B,1462 cc,Manual,CNG,26.08 km/kg,60 Litres,MacPherson Strut & Coil Spring,Rear Twist Beam & Coil Spring
+18,Maruti Suzuki Alto 800 tour,F8D,796 cc,Manual,Petrol,22.05 kmpl,35 Litres,Mac Pherson Strut,3-Link Rigid Axle
+19,Maruti Suzuki Eeco Cargo,K12N,1197 cc,Manual,CNG,27.05 km/kg,65 Litres,Mcpherson Strut,N/A
+20,Maruti Suzuki Grand Vitara,M15D With Strong Hybrid,1490 cc,Automatic,Petrol,27.97 kmpl,45 Litres,MacPherson Strut,Torsion Beam
+21,Maruti Suzuki Super Carry,Multi Point Fuel Injection G12B BS—VI,1196 cc,Manual,CNG,N/A,30 Litres,McPherson strut with Coil Spring,Leaf Spring Rigid Axle
+22,Maruti Suzuki Swift Dzire Tour,K12M VVT I4,1197 cc,Manual,CNG,31.12 km/kg,55 Litres,Mac Pherson Strut,Torsion Beam
+23,Maruti Suzuki Wagon R tour,K10C,998 cc,Manual,CNG,34.73 km/kg,60 Litres,MacPherson Strut with Coil Spring,Torsion Beam with Coil Spring

@@ -1,0 +1,240 @@
+,MAKE_MODEL,ENGINE_TYPE,ENGINE_DISPLACEMENT,TRANSMISSION_TYPE,FUEL_TYPE,MILEAGE,TANK_CAPACITY,FRONT_SUSPENSION,REAR_SUSPENSION
+0,Maruti Suzuki Swift,Advanced K Series,1197 cc,Automatic,Petrol,22.56 kmpl,37 Litres,Mac Pherson Strut,Torsion Beam
+1,Maruti Suzuki Brezza,K15C,1462 cc,Automatic,Petrol,19.8 kmpl,48 Litres,Mac Pherson Strut & Coil,Torsion Beam & Coil Spring
+2,Maruti Suzuki FRONX,1.0L Turbo Boosterjet,998 cc,Automatic,Petrol,20.01 kmpl,37 Litres,MacPherson Strut,Torsion Beam
+3,Maruti Suzuki Ertiga,K15C Smart Hybrid,1462 cc,Automatic,Petrol,20.3 kmpl,45 Litres,Mac Pherson Strut & Coil Spring,Torsion Beam & Coil Spring
+4,Maruti Suzuki Baleno,1.2 L K Series Engine,1197 cc,Automatic,Petrol,22.94 kmpl,37 Litres,MacPherson Strut,Torsion Beam
+5,Maruti Suzuki Dzire,K12M VVT I4,1197 cc,Automatic,Petrol,22.61 kmpl,37 Litres,Mac Pherson Strut,Torsion Beam
+6,Maruti Suzuki Wagon R,K12N,1197 cc,Automatic,Petrol,24.43 kmpl,32 Litres,MacPherson Strut With Coil Spring,Torsion Beam With Coil Spring
+7,Maruti Suzuki Alto K10,K10C,998 cc,Manual,CNG,33.85 km/kg,55 Litres,Mac Pherson Strut with Coil Spring,Torsion Beam with Coil Spring
+8,Maruti Suzuki Alto,F8D,796 cc,Manual,CNG,31.59 km/kg,60 Litres,Mac Pherson Strut,3-Link Rigid Axle Suspension
+9,Maruti Suzuki Celerio,K10C,998 cc,Automatic,Petrol,26 kmpl,32 Litres,Mac Pherson Strut with Coil Spring,Torsion Beam with Coil Spring
+10,Maruti Suzuki Jimny,K15B,1462 cc,Automatic,Petrol,16.39 kmpl,40 Litres,3-link Rigid Axle Type with Coil Spring,3-link Rigid Axle Type with Coil Spring
+11,Maruti Suzuki Eeco,K12N,1197 cc,Manual,CNG,26.78 km/kg,65 Litres,Macpherson Strut,N/A
+12,Maruti Suzuki XL6,K15C Smart Hybrid,1462 cc,Automatic,Petrol,20.27 kmpl,45 Litres,Mac Pherson Strut & Coil Spring,Torsion Beam & Coil Spring
+13,Maruti Suzuki Ignis,VVT,1197 cc,Automatic,Petrol,20.89 kmpl,32 Litres,McPherson Strut,Torsion Beam
+14,Maruti Suzuki Ciaz,K15 Smart Hybrid Petrol Engine,1462 cc,Automatic,Petrol,20.04 kmpl,43 Litres,McPherson,Torsion Beam
+15,Maruti Suzuki Invicto,N/A,1987 cc,Automatic,Petrol,23.24 kmpl,52 Litres,MacPherson Strut,Torsion Beam
+16,Maruti Suzuki S-Presso,K1OC CNG,998 cc,Manual,CNG,32.73 km/kg,55 Litres,MacPherson Strut with Coil Spring and Stabilizer Bar,Torsion Beam with Coil Spring
+17,Maruti Suzuki Ertiga Tour,K15B,1462 cc,Manual,CNG,26.08 km/kg,60 Litres,MacPherson Strut & Coil Spring,Rear Twist Beam & Coil Spring
+18,Maruti Suzuki Alto 800 tour,F8D,796 cc,Manual,Petrol,22.05 kmpl,35 Litres,Mac Pherson Strut,3-Link Rigid Axle
+19,Maruti Suzuki Eeco Cargo,K12N,1197 cc,Manual,CNG,27.05 km/kg,65 Litres,Mcpherson Strut,N/A
+20,Maruti Suzuki Grand Vitara,M15D With Strong Hybrid,1490 cc,Automatic,Petrol,27.97 kmpl,45 Litres,MacPherson Strut,Torsion Beam
+21,Maruti Suzuki Super Carry,Multi Point Fuel Injection G12B BS—VI,1196 cc,Manual,CNG,N/A,30 Litres,McPherson strut with Coil Spring,Leaf Spring Rigid Axle
+22,Maruti Suzuki Swift Dzire Tour,K12M VVT I4,1197 cc,Manual,CNG,31.12 km/kg,55 Litres,Mac Pherson Strut,Torsion Beam
+23,Maruti Suzuki Wagon R tour,K10C,998 cc,Manual,CNG,34.73 km/kg,60 Litres,MacPherson Strut with Coil Spring,Torsion Beam with Coil Spring
+24,Tata Punch,1.2 l Revotron Engine,1199 cc,Automatic,Petrol,18.8 kmpl,37 Litres,"Independent, Lower Wishbone, Mcpherson Strut With Coil Spring",Semi-independent Twist Beam With Coil Spring And Shock Absorber
+25,Tata Nexon,1.5L Turbocharged Revotorq,1497 cc,Automatic,Diesel,24.08 kmpl,N/A,"Independent, Lower Wishbone, McPherson Strut with Coil Spring","Semi-independent, Open Profile Twist Beam with Stabiliser Bar, Coil Spring and Shock Absorber"
+26,Tata Harrier,Kryotec 2.0L,1956 cc,Automatic,Diesel,16.8 kmpl,50 Litres,"Independent, Lower Wishbone, McPherson Strut with Coil Spring & Anti Roll Bar",Semi Independent Twist Blade with Panhard Rod & Coil Spring
+27,Tata Punch EV,N/A,N/A,Automatic,Electric,N/A,N/A,"Independent, Lower Wishbone, McPherson Strut with Coil Spring",Semi-independent Twist Beam With Coil Spring
+28,Tata Safari,Kryotec 2.0L,1956 cc,Automatic,Diesel,N/A,50 Litres,"Independent, Lower Wishbone, McPherson Strut with Coil Spring & Anti-Roll Bar",Semi Independent Twist Blade with Panhard Rod & Coil Spring
+29,Tata Tiago,1.2L Revotron,1199 cc,Automatic,CNG,28.06 km/kg,60 Litres,"Independent, Lower wishbone, McPherson Strut with coil spring","Semi-independent, closed profile twist beam with dual path strut"
+30,Tata Altroz,1.5 l Turbocharged Revotorq,1497 cc,Manual,Diesel,23.64 kmpl,37 Litres,Independent MacPherson dual path strut with coil spring,Twist beam with coil spring and shock Absorber
+31,Tata Nexon EV,N/A,N/A,Automatic,Electric,N/A,N/A,Independent MacPherson strut with coil spring,Twist beam with dual path Strut
+32,Tata Tiago EV,N/A,N/A,Automatic,Electric,N/A,N/A,Independent Lower Wishbone McPherson Dual Path (Strut Type),Rear Twist Beam With Coil Spring
+33,Tata Tigor,1.2L Revotron,1199 cc,Automatic,CNG,28.06 km/kg,70 Litres,"Independent, Lower Wishbone, McPherson Strut with Coil Spring","Semi-independent, Closed Profile Twist, Beam with Dual Path Strut"
+34,Tata Tigor EV,N/A,N/A,Automatic,Electric,N/A,N/A,Independent MacPherson strut with coil spring,Twist beam with dual path strut
+35,Tata Tiago NRG,1.2L Revotron,1199 cc,Automatic,CNG,26.49 km/kg,35 Litres,"Independent, Lower wishbone, McPherson Strut with coil spring","Semi-independent, Rear Twist Beam with Dual path Strut"
+36,Tata Yodha Pickup,TATA 4SP CR TCIC,2956 cc,Manual,Diesel,N/A,45 Litres,Semi-elliptical leaf springs-6leaves,Innovative Two-stage Semi-elliptical leaf springs-7leaves
+37,Kia Sonet,1.5L CRDi VGT,1493 cc,Automatic,Diesel,N/A,45 Litres,McPherson Strut with Coil Spring,Coupled Torsion beam Axle (CTBA) With Coil Spring
+38,Kia Seltos,1.5l CRDi VGT,1493 cc,Automatic,Diesel,19.1 kmpl,50 Litres,McPherson Strut With Coil Spring,Coupled Torsion Beam Axle With Coil Spring
+39,Kia EV6,N/A,N/A,Automatic,Electric,N/A,N/A,McPherson suspension,Multi-Link
+40,Kia Carens,CRDi VGT,1493 cc,Automatic,Diesel,21 kmpl,45 Litres,McPherson Strut with coil spring,Coupled Torsion Beam Axle with Coil Spring
+41,Toyota Fortuner,2.8 L Diesel engine,2755 cc,Automatic,Diesel,N/A,N/A,Double Wishbone,4-Link With Coil Spring
+42,Toyota Taisor,1.0L K-Series Turbo,998 cc,Automatic,Petrol,20 kmpl,37 Litres,MacPherson Strut,Torsion Beam
+43,Toyota Innova Crysta,2.4L Diesel Engine,2393 cc,Manual,Diesel,N/A,55 Litres,Double Wishbone With Torsion Bar,4-Link with Coil Spring
+44,Toyota Land Cruiser 300,F33A-FTV,3346 cc,Automatic,Diesel,11 kmpl,110 Litres,Double Wishbone Independent,4-Link Rigid
+45,Toyota Urban Cruiser Hyryder,M15D-FXE,1490 cc,Automatic,Petrol,27.97 kmpl,45 Litres,MacPherson Strut,Torsion Beam
+46,Toyota Hilux,2.8 L Diesel Engine,2755 cc,Automatic,Diesel,N/A,80 Litres,Double wishbone,Leaf spring rigid axle
+47,Toyota Rumion,K15C HYBRID,1462 cc,Automatic,Petrol,20.11 kmpl,45 Litres,Macpherson Strut & Coil Spring,Torsion Beam & Coil Spring
+48,Toyota Vellfire,2.5-litre a Hybrid,2487 cc,Automatic,Petrol,N/A,60 Litres,Macpherson Strut,Double Wishbone
+49,Toyota Camry,2.5L Dynamic Force Engine,2487 cc,Automatic,Petrol,N/A,50 Litres,Macpherson Strut,Double Wishbone
+50,Toyota Fortuner Legender,2.8 L Diesel engine,2755 cc,Automatic,Diesel,N/A,80 Litres,Double Wishbone,4-Link With Coil Spring
+51,Toyota Glanza,1.2 L Petrol Engine,1197 cc,Automatic,Petrol,22.94 kmpl,37 Litres,MacPherson Strut,Torsion Beam
+52,Toyota Innova Hycross,2.0 TNGA 5th Generation in-line VVTi,1987 cc,Automatic,Petrol,23.24 kmpl,52 Litres,MacPherson Strut,Semi-independent Torsion beam
+53,Hyundai Creta,1.5L T-GDi,1482 cc,Automatic,Petrol,18.4 kmpl,50 Litres,McPherson strut with coil spring,Coupled torsion beam axle
+54,Hyundai Venue,Kappa 1.0L Turbo,998 cc,Automatic,Petrol,18.31 kmpl,45 Litres,McPherson strut with coil spring,Coupled torsion beam axle with coil spring
+55,Hyundai Verna,1.5L Turbo GDi Petrol,1482 cc,Automatic,Petrol,20.6 kmpl,45 Litres,Mcpherson strut with coil spring,Coupled Torsion Beam Axle
+56,Hyundai Exter,1.2l Kappa,1197 cc,Automatic,Petrol,19.2 kmpl,37 Litres,McPherson Strut,Coupled Torsion Beam Axle
+57,Hyundai i20,1.2L Kappa Petrol,1197 cc,Automatic,Petrol,20 kmpl,37 Litres,McPherson strut,Coupled torsion beam axle
+58,Hyundai Aura,1.2 L Bi-Fuel,1197 cc,Manual,CNG,22 km/kg,65 Litres,McPherson strut,Coupled torsion beam axle
+59,Hyundai Alcazar,1.5 l diesel CRDi engine,1493 cc,Automatic,Diesel,23.8 kmpl,50 Litres,McPherson strut with coil spring,Coupled torsion beam axle
+60,Hyundai Tucson,2.0 L D CRDi I4,1997 cc,Automatic,Diesel,N/A,54 Litres,McPherson strut,Multi-link with coil spring
+61,Hyundai Creta N Line,1.5L Turbo GDi Petrol,1482 cc,Automatic,Petrol,18.2 kmpl,50 Litres,McPherson strut with coil spring,Coupled torsion beam axle
+62,Hyundai Kona Electric,N/A,N/A,Automatic,Electric,N/A,N/A,McPherson strut type,Multi - link
+63,Hyundai Venue N Line,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+64,Hyundai Grand i10 Nios,1.2 Kappa petrol,1197 cc,Automatic,Petrol,16 kmpl,37 Litres,McPherson strut,Coupled torsion beam axle
+65,Hyundai i20 N-Line,1.0 l Turbo GDi petrol,998 cc,Automatic,Petrol,N/A,37 Litres,McPherson strut,Coupled torsion beam axle
+66,Hyundai IONIQ 5,N/A,N/A,Automatic,Electric,N/A,N/A,McPherson Strut,Multi-link
+67,Mahindra Thar,mHawk 130 CRDe,2184 cc,Automatic,Diesel,N/A,57 Litres,Independent Double Wishbone Front Suspension with Coil Over Damper & Stabiliser Bar,Multilink Solid Rear Axle with Coil Over Damper & Stabiliser Bar
+68,Mahindra Scorpio,mHAWK 4 Cylinder,2184 cc,Manual,Diesel,N/A,60 Litres,"Double Wish-bone Type, Independent Front Coil Spring",Multi Link Coil Spring Suspension and Anti-roll Bar
+69,Mahindra XUV300,CRDi,1497 cc,Automatic,Diesel,19.7 kmpl,42 Litres,MacPherson Strut with Anti-roll Bar,Twist Beam Suspension with Coil Spring
+70,Mahindra XUV700,mHAWK (CRDi),2198 cc,Automatic,Diesel,16.57 kmpl,60 Litres,McPherson Strut Independent Suspension with FSD and Stabilizer bar,Multi-Link Independent Suspension with FSD Stabilizer bar
+71,Mahindra Bolero,mHAWK75,1493 cc,Manual,Diesel,16 kmpl,60 Litres,FS Coil Spring,Rigid Leaf Spring
+72,Mahindra Scorpio N,mHawk (CRDi),2198 cc,Automatic,Diesel,N/A,57 Litres,Double Wishbone Suspension with Coil over Shocks with FDD & MTV-CL,Pentalink Suspension with WATT’s Linkage with FDD & MTV-CL
+73,Mahindra Bolero Neo,mHAWk100,1493 cc,Manual,Diesel,17.29 kmpl,50 Litres,N/A,N/A
+74,Mahindra XUV400 EV,N/A,N/A,Automatic,Electric,N/A,N/A,MacPherson Strut with Anti Roll Bar,Twist Beam with Coil Spring
+75,Mahindra Marazzo,D15 1.5L,1497 cc,Manual,Diesel,17.3 kmpl,45 Litres,Double Wishbone,Twist Beam
+76,Mahindra Bolero Camper,m2DiCR 4 Cyl 2.5L TB,2523 cc,Manual,Diesel,N/A,57 Litres,Coil Springs,Rigid axle with leaf spring
+77,Mahindra Bolero PikUp ExtraLong,m2DiCR 4 cly 2.5L TB,2523 cc,Manual,Diesel,N/A,57 Litres,Rigid leaf spring suspension,Rigid leaf spring suspension
+78,Mahindra Bolero Maxitruck Plus,MSI 2500 CNG,2523 cc,Manual,CNG,17.2 km/kg,146 Litres,"Rigid, Leaf Spring","Rigid, Leaf Spring"
+79,Mahindra BOLERO PikUP ExtraStrong,N/A,1298 cc,Manual,CNG,N/A,N/A,N/A,N/A
+80,Honda City,i-VTEC,1498 cc,Automatic,Petrol,18.4 kmpl,40 Litres,McPherson Strut with Coil Spring,Torsion beam with Coil Spring
+81,Honda Amaze,i-VTEC,1199 cc,Automatic,Petrol,18.3 kmpl,35 Litres,"McPherson Strut, Coil Spring","Torsion Bar, Coil Spring"
+82,Honda City Hybrid,i-VTEC,1498 cc,Automatic,Petrol,27.13 kmpl,40 Litres,McPherson Strut with Coil Spring,Torsion beam with Coil Spring
+83,Honda Elevate,i-VTEC,1498 cc,Automatic,Petrol,16.92 kmpl,40 Litres,MacPherson Strut With Coil Spring,Torsion Beam With Coil Spring
+84,MG Hector,1.5 L Turbocharged Intercooled,1451 cc,Automatic,Petrol,12.34 kmpl,60 Litres,Mcpherson strut + coil springs,Beam assemble + coil spring
+85,MG Astor,220TURBO,1349 cc,Automatic,Petrol,14.34 kmpl,45 Litres,MacPherson Strut,Torsion Beam
+86,MG Gloster,DIESEL 2.0L TWIN TURBO,1996 cc,Automatic,Diesel,12.04 kmpl,75 Litres,Double-wishbone Suspension,Multi-link Double Suspension
+87,MG Comet EV,N/A,N/A,Automatic,Electric,N/A,N/A,McPherson Strut,Multi-Link Coil Suspension
+88,MG Hector Plus,1.5L Turbocharged Intercooled,1451 cc,Automatic,Petrol,12.34 kmpl,60 Litres,Mcpherson strut + coil spring,Beam assemble + coil spring
+89,MG ZS EV,N/A,N/A,Automatic,Electric,N/A,N/A,MacPherson Strut,Torsion Beam
+90,Skoda Slavia,1.5 L TSI Petrol,1498 cc,Automatic,Petrol,19.36 kmpl,45 Litres,McPherson suspension with lower triangular links and stabiliser bar,Twist Beam Axle
+91,Skoda Superb,N/A,1984 cc,Automatic,Petrol,N/A,N/A,McPherson suspension,Multi-element axle
+92,Skoda Kushaq,1.5 TSI Petrol Engine,1498 cc,Automatic,Petrol,18.6 kmpl,50 Litres,McPherson suspension with lower triangular links and stabiliser bar,Twist Beam Axle
+93,Skoda Kodiaq,Turbocharged Petrol Engine,1984 cc,Automatic,Petrol,13.32 kmpl,58 Litres,McPherson suspension with lower triangular links and torsion stabiliser,"Multi-element axle, with longitudinal and transverse links, with torsion stabiliser"
+94,Jeep Compass,2.0L Multijet Diesel,1956 cc,Automatic,Diesel,14.9 kmpl,60 Litres,McPherson Strut with Lower Control Arm,Multi Link Suspension with Strut Assembly
+95,Jeep Wrangler,2.0L GME T4 DI TC,1998 cc,Automatic,Petrol,12.1 kmpl,81 Litres,Heavy-Duty Performance Suspension with Gas Shocks,Heavy-Duty Performance Suspension with Gas Shocks
+96,Jeep Meridian,2.0 L Multijet Diesel,1956 cc,Automatic,Diesel,N/A,60 Litres,"McPherson Strut with Frequency Selective Damping, HRS with Anti Roll Bar Disc",Multi-Link with Strut Suspension with FSD
+97,Jeep Grand Cherokee,2.0L GME T4,1995 cc,Automatic,Petrol,N/A,87 Litres,Multi-link independent (all aluminum arms and knuckles ),Multi-link independent (all aluminum arms and knuckles )
+98,Renault KWID,1.0 SCe,999 cc,Automatic,Petrol,22.3 kmpl,28 Litres,Mac Pherson strut with lower Transverse link,Twist beam suspension with coil spring
+99,Renault Triber,ENERGY Engine,999 cc,Automatic,Petrol,18.2 kmpl,40 Litres,Macpherson strut with lower triangle & coil spring,Torsion beam axle
+100,Renault Kiger,1.0L Turbo,999 cc,Automatic,Petrol,18.24 kmpl,40 Litres,Mac Pherson strut with lower transverse link,Twist beam suspension with coil spring
+101,Nissan Magnite,1.0L HRAO,999 cc,Automatic,Petrol,17.4 kmpl,40 Litres,Mac Pherson strut with Lower Transverse link,Twin tube telescopic shock absorber
+102,Volkswagen Virtus,1.5L TSI EVO with ACT,1498 cc,Automatic,Petrol,19.62 kmpl,45 Litres,Mc-Pherson suspension and stabiliser bar,Twist beam axle
+103,Volkswagen Taigun,1.5L TSI EVO with ACT,1498 cc,Automatic,Petrol,17.88 kmpl,50 Litres,McPherson suspension and stabiliser bar,Twist beam axle
+104,Volkswagen Tiguan,2.0 TSI,1984 cc,Automatic,Petrol,12.65 kmpl,60 Litres,Independent suspension with coil spring,Independent suspension by four-link axle
+105,Citroen C3,1.2L PureTech 110,1199 cc,Manual,Petrol,19.3 kmpl,30 Litres,MacPherson Strut with Coil Spring,Rear Twist Beam with Coil Spring
+106,Citroen C3 Aircross,PURETECH 110,1199 cc,Automatic,Petrol,17.6 kmpl,45 Litres,Macpherson Strut with Coil Spring,Twist Beam with Coil Spring
+107,Citroen eC3,N/A,N/A,Automatic,Electric,N/A,N/A,MacPherson Strut with Coil Spring,Rear Twist Beam with Coil Spring
+108,Citroen C5 Aircross,DW10 FC,1997 cc,Automatic,Diesel,17.5 kmpl,52.5 Litres,Macpherson Strut Suspension with Double Progressive Hydraulic Cushions-Compression and Rebound,Twist Beam Axle with Single Progressive Hydraulic Cushions -Compression
+109,Aston Martin DB12,M177 biturbo V8,3982 cc,Automatic,Petrol,N/A,78 Litres,"Independent Double Wishbone, Coil Springs & Anti-Roll Bar","Multi-link Suspension, with Coil Springs & Anti-Roll Bar"
+110,Aston Martin Vantage,AMG M177,3998 cc,Manual,Petrol,N/A,73 Litres,"independent double wishbone design coil springs, anti-roll bar and adaptive damping","multi-link, coil springs, anti-roll bar and adaptive damping Adaptive Damping System"
+111,Aston Martin DBX,"Quad Overhead Cam,4 litre twin turbo V8",3982 cc,Automatic,Petrol,N/A,85 Litres,Independent double wishbone,Multi-link
+112,Audi Q7,3.0L V6 TFSI,2995 cc,Automatic,Petrol,N/A,N/A,Air Suspension,Air Suspension
+113,Audi Q5,2.0 L TFSI,1984 cc,Automatic,Petrol,13.47 kmpl,70 Litres,5-link front axle; tubular anti-roll bar,5-link rear axle; tubular anti-roll bar
+114,Audi A4,2.0 L TFSI petrol engine,1984 cc,Automatic,Petrol,N/A,54 Litres,5-link front suspension; tubular anti-roll bar,5-link rear suspension; tubular anti-roll bar
+115,Audi Q3,40 TFSI quattro S tronic,1984 cc,Automatic,Petrol,N/A,62 Litres,McPherson struts,4-link rear axle
+116,Audi A6,In Line Petrol Engine,1984 cc,Automatic,Petrol,14.11 kmpl,73 Litres,Five-link front suspension; tubular anti-roll bar,Five-link front suspension; tubular anti-roll bar
+117,Audi RS5,V6,2894 cc,Automatic,Petrol,8.8 kmpl,58 Litres,RS Sports,RS Sports
+118,Audi Q8,TFSI Petrol Engine,2995 cc,Automatic,Petrol,9.8 kmpl,85 Litres,Adaptive Air Suspension,Adaptive Air Suspension
+119,Audi e-tron GT,N/A,N/A,Automatic,Electric,N/A,N/A,Air Suspension,Air Suspension
+120,Audi e-tron,N/A,N/A,Automatic,Electric,N/A,N/A,5-link front axle; tubular anti-roll bar; air spring suspension,5-link rear axle; tubular anti-roll bar; air spring suspension
+121,Audi RS e-tron GT,N/A,N/A,Automatic,Electric,N/A,N/A,Air Suspension,Air Suspension
+122,Audi Q3 Sportback,EngineType,1984 cc,Automatic,Petrol,N/A,62 Litres,N/A,N/A
+123,Audi S5 Sportback,3.0 L V6 TFSI Petrol engine,2994 cc,Automatic,Petrol,8.8 kmpl,58 Litres,S Sports suspension,S Sports suspension
+124,Audi Q8 e-tron,Twin Electric Motor,N/A,Automatic,Electric,N/A,N/A,Adaptive Air,Adaptive Air
+125,Audi Q8 Sportback e-tron,Twin Electric Motor,N/A,Automatic,Electric,N/A,N/A,Adaptive Air,Adaptive Air
+126,Audi A8 L,55 TFSI quattro tiptronic,2995 cc,Automatic,Petrol,N/A,82 Litres,Five-link front axle; tubular anti-roll bar; air spring suspension,Five-link front axle; tubular anti-roll bar; air spring suspension
+127,Audi RS Q8,V8 Twin Turbo Engine,3998 cc,Automatic,Petrol,N/A,85 Litres,Sport Adaptive Air Suspension,Sport Adaptive Air Suspension
+128,Bajaj Qute (RE60),N/A,216 cc,Manual,CNG,43 km/kg,35 Litres,"Independent Suspension With Twin Leading Arm,Coil Over Shock Absorber & Anti Roll Bar",Independent Suspension With Semi Trailing Arm And Coil Over Shock Absorber
+129,Bentley Continental,6.0 litre W12 petrol,5950 cc,Automatic,Petrol,12.9 kmpl,90 Litres,Air Suspension,Air suspension
+130,Bentley Flying Spur,Twin Turbocharged W12 Eng,5950 cc,Automatic,Petrol,10.2 kmpl,90 Litres,Air Suspension,Air Suspension
+131,Bentley Bentayga,4.0 V8 twin-turbocharged petrol engine,3993 cc,Automatic,Petrol,N/A,85 Litres,Four link Double Wishbones,Trapezoidak muliti-Link
+132,BMW Z4,TwinPower Turbo 6-cylinder,2998 cc,Automatic,Petrol,N/A,52 Litres,Adaptive M suspension,Adaptive M suspension
+133,BMW X1,B47 twin-turbo I4,1995 cc,Automatic,Diesel,20.37 kmpl,51 Litres,N/A,N/A
+134,BMW X7,EngineType,2993 cc,Automatic,Diesel,14.31 kmpl,N/A,N/A,N/A
+135,BMW X5,TwinPower Turbo 6-cylinder engine,2993 cc,Automatic,Diesel,12 kmpl,N/A,Adaptive 2-axle Air Suspension,Adaptive 2-axle Air Suspension
+136,BMW i7,N/A,N/A,Automatic,Electric,N/A,N/A,Adaptive 2-axle Air Suspension,Adaptive 2-axle Air Suspension
+137,BMW XM,EngineType,4395 cc,Automatic,Petrol,11.29 kmpl,N/A,Adaptive M Suspension,Adaptive M Suspension
+138,BMW X3,EngineType,2998 cc,Automatic,Petrol,16.35 kmpl,65 Litres,independent damping,independent damping
+139,BMW iX,N/A,N/A,Automatic,Electric,N/A,N/A,air suspension,air suspension
+140,BMW 3 Series,EngineType,2998 cc,Automatic,Petrol,13.02 kmpl,59 Litres,M Sport Suspension,M Sport Suspension
+141,BMW 2 Series,EngineType,1998 cc,Automatic,Diesel,18.64 kmpl,51 Litres,Single-joint spring strut axle in lightweight aluminium-steel construction,Adaptive M-specific Suspension
+142,BMW M2,3.0 M TwinPower Turbo inline,2993 cc,Automatic,Petrol,N/A,52 Litres,N/A,N/A
+143,BMW 7 Series,B57 turbo I6,2993 cc,Automatic,Diesel,N/A,74 Litres,Air Suspension,Air Suspension
+144,BMW 6 Series,TwinPower Turbo inline 4-cylinder engine,1995 cc,Automatic,Diesel,18.65 kmpl,N/A,Adaptive Air Suspension,Dynamic Damper Control
+145,BMW X4,3.0L TwinPower Turbo inline,2993 cc,Automatic,Petrol,N/A,68 Litres,Adaptive M,Adaptive M
+146,BMW M4 Competition,EngineType,2993 cc,Automatic,Petrol,11.86 kmpl,59 Litres,Adaptive M-Specific Suspension,Adaptive M-Specific Suspension
+147,BMW iX1,N/A,N/A,Automatic,Electric,N/A,N/A,Adaptive M Suspension,N/A
+148,BMW 3 Series Gran Limousine,TwinPower Turbo,1995 cc,Automatic,Diesel,19.61 kmpl,59 Litres,N/A,N/A
+149,BMW i4,N/A,N/A,Automatic,Electric,N/A,N/A,Air Suspension,Air Suspension
+150,BMW M8 Coupe Competition,petrol engine,4395 cc,Automatic,Petrol,8.7 kmpl,68 Litres,Adaptive M Suspension,Adaptive M Suspension
+151,BYD Seal,N/A,N/A,Automatic,Electric,N/A,N/A,Double Wishbone,Multi-Link
+152,BYD Atto 3,N/A,N/A,Automatic,Electric,N/A,N/A,Macpherson Strut,Multi-Link
+153,BYD E6,N/A,N/A,Automatic,Electric,N/A,N/A,McPherson,Multi-link
+154,Ferrari Roma,V8 - 90° turbo,3855 cc,Automatic,Petrol,N/A,80 Litres,Magnetorheological damper,Magnetorheological damper
+155,Ferrari 296 GTB,EngineType,2992 cc,Automatic,Petrol,N/A,65 Litres,N/A,N/A
+156,Ferrari SF90 Stradale,V8-90°-turbo,3990 cc,Automatic,Petrol,N/A,68 Litres,"independent,double wishbones(Adaptive Dampers)","independent, multi-link(Adaptive Dampers)"
+157,Ferrari 812,V12 - 65°,6496 cc,Automatic,Petrol,N/A,92 Litres,adaptive magnetic suspension,adaptive magnetic suspension
+158,Ferrari F8 Tributo,90-degree V8 twin turbo Engine,3902 cc,Automatic,Petrol,N/A,78 Litres,"independent,double wishbones(Adaptive Dampers)","independent,multi-link(Adaptive Dampers)"
+159,Force Gurkha,FM 2.6L CRDi,2596 cc,Manual,Diesel,N/A,63 Litres,Coil Spring Suspension,Coil Spring Suspension
+160,Isuzu D-Max,VGT Intercooled Diesel,2499 cc,Manual,Diesel,N/A,55 Litres,"Double Wishbone, Coil Spring",Semi-Elliptic Leaf Spring
+161,Isuzu MU-X,1.9L Ddi Diesel,1898 cc,Automatic,Diesel,12.31 kmpl,55 Litres,Independent Double wishbone coil springs gas shock absorbers stabiliser bar,Penta-link coil suspension gas shock absorbers stabiliser bar
+162,Isuzu V-Cross,VGS Turbo Intercooled Diesel,1898 cc,Automatic,Diesel,N/A,55 Litres,"Independent Double Wishbone, Coil Spring","Soft Ride, Leaf Spring"
+163,Isuzu S-CAB,VGT Intercooled Diesel,2499 cc,Manual,Diesel,N/A,55 Litres,"Double Wishbone, Coil Spring",Semi-Elliptic Leaf Spring
+164,Isuzu S-CAB Z,Variable Geometric Turbo Intercooled,2499 cc,Manual,Diesel,N/A,55 Litres,N/A,N/A
+165,Isuzu Hi-Lander,VGS Turbo Intercooled Diesel,1898 cc,Manual,Diesel,N/A,55 Litres,"Independent Double Wishbone, Coil Spring","Soft Rid, Leaf Spring"
+166,Jaguar F-Pace,EngineType,1997 cc,Automatic,Diesel,N/A,60 Litres,N/A,N/A
+167,Jaguar F-TYPE,P450 Petrol Engine,5000 cc,Automatic,Petrol,N/A,70 Litres,Air Suspension,Air Suspension
+168,Jaguar I-Pace,N/A,N/A,Automatic,Electric,N/A,N/A,Coil Suspension,Coil Suspension
+169,Lamborghini Urus,V8 bi-turbo engine,3996 cc,Automatic,Petrol,N/A,75 Litres,adaptive air suspension,adaptive air suspension
+170,Lamborghini Revuelto,V12 NA 6.5l,6498 cc,Automatic,Petrol,N/A,N/A,double wishbone with LMR dampers,double wishbone with LMR dampers
+171,Lamborghini Huracan EVO,"V10 cylinder 90°,dual injection",5204 cc,Automatic,Petrol,N/A,80 Litres,Aluminum double-wishbone suspension,Aluminum double-wishbone suspension
+172,Land Rover Defender,3.0 Litre Diesel Engine,4998 cc,Automatic,Petrol,6.8 kmpl,N/A,Double wishbones Coil Suspension,Multi-link
+173,Land Rover Range Rover,EngineType,4367 cc,Automatic,Petrol,8.7 kmpl,90 Litres,Electronic Air Suspension with Dynamic Response,Electronic Air Suspension with Dynamic Response
+174,Land Rover Range Rover Velar,TD4 Engine,1997 cc,Automatic,Petrol,N/A,82 Litres,Electronic Air Suspension,Electronic Air Suspension
+175,Land Rover Range Rover Evoque,N/A,1997 cc,Automatic,Diesel,N/A,N/A,N/A,N/A
+176,Land Rover Range Rover Sport,EngineType,4395 cc,Automatic,Petrol,N/A,86 Litres,Dynamic Air Suspension,Dynamic Air Suspension
+177,Land Rover Discovery,EngineType,2997 cc,Automatic,Diesel,N/A,N/A,Electronic Air Suspension,Electronic Air Suspension
+178,Land Rover Discovery Sport,Diesel Engine,1999 cc,Automatic,Diesel,6.9 kmpl,65 Litres,MacPherson Strut,Integral Coil Spring
+179,Lexus ES,2AR-FXE,2487 cc,Automatic,Petrol,N/A,50 Litres,MacPherson struts,Double Wishbone
+180,Lexus LC 500h,3.5-literV6FourCam,3456 cc,Automatic,Petrol,12.3 kmpl,82 Litres,"Multi-link type,coil springs",multi-link suspension
+181,Lexus LS,8GR FXS V6 24-valve DOHC with Dual VVT-i,3456 cc,Automatic,Petrol,15.4 kmpl,82 Litres,AIR Adaptive Variable Suspension,AIR Adaptive Variable Suspension
+182,Lexus LM,N/A,2487 cc,Automatic,Petrol,N/A,N/A,N/A,N/A
+183,Lexus LX,3.5-liter V6 twin-turbo,3346 cc,Automatic,Diesel,N/A,80 Litres,Adaptive Variable Suspension,Adaptive Variable Suspension
+184,Lexus NX,A25B-FXS,2487 cc,Automatic,Petrol,N/A,55 Litres,MacPherson Strut,Double-wishbone
+185,Lexus RX,2.5L in-line Twin Cam (A25A-FXS/A25B-FXS,2487 cc,Automatic,Petrol,N/A,N/A,MacPherson Struts,"Multi-link Type, Coil Spring"
+186,Lotus Eletre,N/A,N/A,Automatic,Electric,N/A,N/A,Multi-link,Multi-link
+187,Maserati Levante,3.0L V6 Diesel Engine,2979 cc,Automatic,Petrol,12 kmpl,80 Litres,Air Adaptive Suspensions,Air Adaptive Suspensions
+188,Maserati Ghibli,EngineType,3799 cc,Automatic,Petrol,N/A,80 Litres,SKYHOOK SUSPENSION,SKYHOOK SUSPENSION
+189,Maserati GranTurismo,V-Type Petrol Engine,4691 cc,Automatic,Petrol,10 kmpl,86 Litres,Double Wishbone,Five-Arm Multilink
+190,Maserati Quattroporte,V-Type Petrol Engine,3799 cc,Automatic,Petrol,11.76 kmpl,80 Litres,Double Wishbone,Five-Arm Multilink
+191,Maserati GranCabrio,V Type Diesel Engine,4691 cc,Automatic,Diesel,10.2 kmpl,75 Litres,Quattroporte Sport GT S is fitted with the single-setting racing-style suspension system,Quattroporte Sport GT S is fitted with the single-setting racing-style suspension system
+192,Mclaren GT,M840TE,3994 cc,Automatic,Petrol,N/A,72 Litres,Independent adaptive dampers with Proactive Damping Control,"Dual aluminium wishbones.Comfort,Sport and Track modes"
+193,Mclaren 750S,M840T,3994 cc,Automatic,Petrol,N/A,72 Litres,Double Wishbone,Double Wishbone
+194,Mercedes-Benz GLA,OM 651 DE 22 LA,1950 cc,Automatic,Diesel,18.9 kmpl,N/A,air suspension,air suspension
+195,Mercedes-Benz GLC,OM654M,1993 cc,Automatic,Diesel,N/A,66 Litres,Selective Damping System,Selective Damping System
+196,Mercedes-Benz GLS,M177,3982 cc,Automatic,Petrol,N/A,90 Litres,"Double Wishbone, Air Springs, Single-tube Gas-filled Shock Absorber, Stabiliser Bar","Multi-link, Air Springs, Twin-tube Gas-filled Shock Absorbers, Stabiliser Bar"
+197,Mercedes-Benz C-Class,OM654M,1993 cc,Automatic,Diesel,N/A,66 Litres,Adaptive Damping System,Adaptive Damping System
+198,Mercedes-Benz E-Class,3.0 L in-line 6 cylinder engine,2925 cc,Automatic,Diesel,N/A,80 Litres,Air Suspension,Air Suspension
+199,Mercedes-Benz S-Class,M256 engine,2999 cc,Automatic,Petrol,N/A,76 Litres,AIRMATIC suspension,air suspension
+200,Mercedes-Benz EQS,N/A,N/A,Automatic,Electric,N/A,N/A,air suspension,air suspension
+201,Mercedes-Benz GLE,N/A,2989 cc,Automatic,Diesel,N/A,N/A,N/A,N/A
+202,Mercedes-Benz AMG SL,4.0-litre biturbo V8,3982 cc,Automatic,Petrol,N/A,N/A,AMG RIDE CONTROL,AMG RIDE CONTROL
+203,Mercedes-Benz EQE SUV,N/A,N/A,Automatic,Electric,N/A,N/A,N/A,N/A
+204,Mercedes-Benz EQB,N/A,N/A,Automatic,Electric,N/A,N/A,N/A,N/A
+205,Mercedes-Benz AMG C43,2.0L M139l,1991 cc,Automatic,Petrol,N/A,66 Litres,AMG RIDE CONTROL,AMG RIDE CONTROL
+206,Mercedes-Benz AMG A 45 S,2.0-litre in line engine,1991 cc,Automatic,Petrol,N/A,51 Litres,AMG Suspension,AMG Suspension
+207,Mercedes-Benz Maybach S-Class,V12,5980 cc,Automatic,Petrol,N/A,N/A,AIRMATIC,AIRMATIC
+208,Mercedes-Benz AMG GLE 53,3.0-litre 6-cylinder In-lineTurbo Engine,2999 cc,Automatic,Petrol,8.9 kmpl,85 Litres,active roll stabilization intelligent suspension,active roll stabilization intelligent suspension
+209,Mercedes-Benz GLB,OM654q,1998 cc,Automatic,Diesel,N/A,52 Litres,N/A,N/A
+210,Mercedes-Benz A-Class Limousine,L4 200,1950 cc,Automatic,Diesel,N/A,66 Litres,ADAPTIVE DAMPING,ADAPTIVE DAMPING
+211,Mercedes-Benz G-Class,V8,3982 cc,Automatic,Petrol,8.47 kmpl,100 Litres,N/A,N/A
+212,Mercedes-Benz AMG E 53 Cabriolet,3.0L inline-6 turbo with mild hybrid,2998 cc,Automatic,Petrol,N/A,66 Litres,4-wheel multilink suspension,4-wheel multilink suspension
+213,Mercedes-Benz AMG EQS,N/A,N/A,Automatic,Electric,N/A,N/A,Air Suspension,Air Suspension
+214,Mercedes-Benz AMG GLA 35,AMG 35 4MATIC,1991 cc,Automatic,Petrol,N/A,51 Litres,AMG RIDE CONTROL suspension,AMG RIDE CONTROL suspension
+215,Mercedes-Benz AMG GT 4 Door Coupe,4.0-litre V8 with twin turbocharger,3982 cc,Automatic,Petrol,N/A,75 Litres,N/A,N/A
+216,Mini Cooper Countryman,Petrol Engine,1998 cc,Automatic,Petrol,14.34 kmpl,51 Litres,Single-Link Spring-Strut,Multiple-Control-Arm
+217,Mini Cooper 3 DOOR,Petrol Engine,1998 cc,Automatic,Petrol,17.33 kmpl,44 Litres,single joint spring-strut front axle,multiple control-arm rear axle
+218,Mini Cooper SE,N/A,N/A,Automatic,Electric,N/A,N/A,N/A,N/A
+219,PMV EaS E,N/A,N/A,Automatic,Electric,N/A,N/A,N/A,N/A
+220,Porsche 911,EngineType,3996 cc,Automatic,Petrol,N/A,64 Litres,N/A,N/A
+221,Porsche Cayenne,3.0-litre turbocharged V6 engine,2894 cc,Automatic,Petrol,10.8 kmpl,75 Litres,Adaptive air suspension with levelling system and height adjustment incl.(PASM),Adaptive air suspension with levelling system and height adjustment incl.(PASM)
+222,Porsche Macan,Twin-Turbocharged Engine,2894 cc,Automatic,Petrol,N/A,65 Litres,Double Wishbone,Self-Tracking Trapezoidal Link
+223,Porsche 718,naturally aspirated boxer engine,3997 cc,Automatic,Petrol,9.17 kmpl,64 Litres,spring-strut suspension,spring-strut suspension
+224,Porsche Panamera,4.0-litre V8 bi-turbo engine,3998 cc,Automatic,Petrol,N/A,50 Litres,adaptive air suspension,adaptive air suspension
+225,Porsche Taycan,N/A,N/A,Automatic,Electric,N/A,N/A,Adaptive air suspension,Adaptive air suspension
+226,Porsche Cayenne Coupe,3.0-litre turbocharged V6 engine,2894 cc,Automatic,Petrol,N/A,75 Litres,Adaptive air suspension with levelling system and height adjustment incl.(PASM),Adaptive air suspension with levelling system and height adjustment incl.(PASM)
+227,Porsche Macan EV,N/A,N/A,Automatic,Electric,N/A,N/A,N/A,N/A
+228,Pravaig DEFY,N/A,N/A,Automatic,Electric,N/A,N/A,Independent Double wishbone with adjustable coil overs Suspension,Independent Double wishbone with adjustable coil overs Suspension
+229,Rolls-Royce Ghost,EngineType,6750 cc,Automatic,Petrol,N/A,N/A,N/A,N/A
+230,Rolls-Royce Phantom,V12 Petrol Engine,6749 cc,Automatic,Petrol,9.8 kmpl,100 Litres,Double Wishbone,Multi Link
+231,Rolls-Royce Spectre,N/A,N/A,Automatic,Electric,N/A,N/A,N/A,N/A
+232,Rolls-Royce Cullinan,6.75-litre V12 engine,6750 cc,Automatic,Petrol,9.5 kmpl,N/A,N/A,N/A
+233,Strom Motors R3,N/A,N/A,Automatic,Electric,N/A,N/A,MacPherson Struct,Dual Shock Absorbers
+234,Volvo XC90,Drive-E turbo I4,1969 cc,Automatic,Petrol,17.2 kmpl,68 Litres,Air Suspension,Air Suspension
+235,Volvo XC60,Turbo Petrol Engine,1969 cc,Automatic,Petrol,11.2 kmpl,70 Litres,MacPherson Strut,Multi Link
+236,Volvo S90,EngineType,1969 cc,Automatic,Petrol,N/A,60 Litres,Air suspension,Air suspension
+237,Volvo XC40 Recharge,N/A,N/A,Automatic,Electric,N/A,N/A,sophisticated Suspension,sophisticated Suspension
+238,Volvo C40 Recharge,N/A,N/A,Automatic,Electric,N/A,N/A,N/A,N/A
