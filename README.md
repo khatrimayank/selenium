@@ -1,83 +1,45 @@
-Car Details Extraction from CarDekho.com
-Overview
-This script extracts detailed car information from CarDekho.com, focusing on various attributes of car models including engine type, displacement, transmission type, fuel type, mileage, tank capacity, suspension details, and entertainment features. The extracted data is saved to a CSV file for further analysis.
+# CarDekho Data Extraction Script
 
-Requirements
-Python 3.x
-Selenium
-ChromeDriver
-pandas
-Setup
-Install Required Packages:
+## Introduction
 
-You need to install the required Python packages if you haven’t already. You can install them using pip:
+The CarDekho Data Extraction Script is a Python-based tool designed to extract detailed car specifications from the CarDekho website. The script automates the process of gathering information about various car models, including engine type, fuel type, transmission type, mileage, suspension details, and entertainment features, and stores the data in a CSV file.
 
-pip install selenium pandas
-Download ChromeDriver:
+## Script Functionality
 
-Download the appropriate version of ChromeDriver for your Chrome browser from ChromeDriver Downloads and ensure it is accessible from your system's PATH.
+### Data Extraction
+- The script extracts car specifications for different models available on the CarDekho website. Each car is defined by attributes such as "make", "model", "engine type", "fuel type", "transmission type", "mileage", "tank capacity", "suspension details", and "entertainment features".
 
-Script Overview
-Key Components
-Imports:
+### Automated Web Scraping
+- Using Selenium, the script automates the browsing process, opening brand and model pages, extracting relevant data, and saving the information into a CSV file.
 
-selenium.webdriver: For browser automation.
-time: For adding delays.
-pandas: For handling data and exporting to CSV.
-webdriver.support.ui and webdriver.support.expected_conditions: For waiting for elements to load.
-Setup WebDriver:
+## How to Run
 
-Initializes the Chrome WebDriver and opens CarDekho.com.
+1. **Install Dependencies:**
+   - Make sure you have Python installed along with the required packages:
+     ```bash
+     pip install selenium pandas
+     ```
+   - Also, ensure that the ChromeDriver is installed and is compatible with your version of Chrome.
 
-Data Extraction:
+2. **Run the Script:**
+   - Navigate to the directory containing the script and execute it:
+     ```bash
+     python car_dekho_data_extract.py
+     ```
 
-Brand Links Extraction: Finds and collects links to different car brands.
-Model Links Extraction: For each brand, extracts links to individual car models.
-Car Model Details Extraction: For each car model, extracts specific details from various sections of the page.
-Data Parsing:
+3. **Output:**
+   - The extracted data will be saved into a CSV file named `CAR_DETAILS_FROM_CAR_DEKHO.csv`.
 
-Uses the row_data_to_dict function to convert table rows into a dictionary format.
+## Edge Cases Handled
 
-Data Storage:
+- The script handles cases where car models might not have all the specified attributes available.
+- If a webpage fails to load or an attribute is missing, the script assigns a default value of "N/A".
 
-Saves the extracted data into a CSV file named CAR_DETAILS_FROM_CAR_DEKHO.csv.
+## Testing
 
-How to Run
-Ensure you have Python 3.x installed on your system.
+- The script is designed to handle different scenarios, such as pages not loading correctly or certain data not being available.
+- Test the script by running it for different car brands and models to ensure it captures data accurately.
 
-Install the required packages and download ChromeDriver as mentioned in the setup section.
+## Author
 
-Save the script to a file, e.g., car_data_extraction.py.
-
-Run the script using:
-
-
-python car_data_extraction.py
-Script Details
-Chrome Options
-chrome_options.add_argument("--headless"): Optional, runs Chrome in headless mode. Uncomment to enable.
-Data Collection Process
-Extract Links of All Brands:
-
-The script finds links to brands and opens each in a new tab.
-
-Extract Links of All Models:
-
-For each brand, it collects model links and opens each in a new tab.
-
-Extract Detailed Information for Each Model:
-
-Extracts various details from the model pages, including engine type, displacement, fuel type, etc.
-
-Handle Multiple Tables:
-
-Uses CSS selectors to locate and extract data from tables related to engine specifications, fuel details, suspension, and entertainment features.
-
-Store Data:
-
-Saves the collected data to a CSV file for further analysis.
-
-Troubleshooting
-Ensure ChromeDriver is compatible with your version of Chrome.
-Check your network connection if the script fails to load pages.
-Increase time.sleep duration if elements are not loading properly.
+[Mayank Khatri]
