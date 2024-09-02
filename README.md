@@ -12,8 +12,6 @@ Install Required Packages:
 
 You need to install the required Python packages if you haven’t already. You can install them using pip:
 
-bash
-Copy code
 pip install selenium pandas
 Download ChromeDriver:
 
@@ -53,8 +51,7 @@ Save the script to a file, e.g., car_data_extraction.py.
 
 Run the script using:
 
-bash
-Copy code
+
 python car_data_extraction.py
 Script Details
 Chrome Options
