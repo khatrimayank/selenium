@@ -12,6 +12,12 @@ The CarDekho Data Extraction Script is a Python-based tool designed to extract d
 ### Automated Web Scraping
 - Using Selenium, the script automates the browsing process, opening brand and model pages, extracting relevant data, and saving the information into a CSV file.
 
+## Requirements
+- Python 3.x
+- Selenium
+- ChromeDriver
+- pandas
+
 ## How to Run
 
 1. **Install Dependencies:**
